@@ -28,6 +28,8 @@ function equate(){
         document.getElementById("screenbottom").innerText=Number(firstValue)*Number(secondValue);
         firstValue=document.getElementById("screenbottom").innerText;
     }
+    timesOperator=0;
+    operator=""
 }
 
 function clearBottom(){
